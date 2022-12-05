@@ -1,4 +1,4 @@
-course = "Learning python's from begining"
+course = "Learning python's from beginning"
 print(course)
 
 whatLearned = 'Learned python "print()" , "input()" and "variables"'
@@ -17,3 +17,20 @@ print(emailText)
 strIndex = 'Python'
 print(strIndex[0])
 print(strIndex[-1])
+print(strIndex[0:3])
+print(strIndex[0:])
+print(strIndex[1:])
+print(strIndex[:3])
+
+copyValue = strIndex[:]
+print(copyValue)
+
+name = 'MohanBabu'
+print(name[1:-1])
+
+firstName = 'Mohan'
+lastName = 'babu'
+concatString = firstName + ' [' + lastName + '] ' + 'is a coder'
+formattedString = f'{firstName} [{lastName}] is a coder'
+print(concatString)
+print(formattedString)
